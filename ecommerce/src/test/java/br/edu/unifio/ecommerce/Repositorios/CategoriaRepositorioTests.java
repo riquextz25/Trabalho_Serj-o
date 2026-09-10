@@ -19,7 +19,7 @@ public class CategoriaRepositorioTests {
     public void deveBuscarUmaCategoriaPorId () {
         Categoria categoria = categoriaRepositorio.findById(Short.parseShort("2")).orElseThrow();
 
-        assertNotNull(categoria);
+        assertNotNull((categoria));
         assertEquals("Livros", categoria.getNome());
         
 
