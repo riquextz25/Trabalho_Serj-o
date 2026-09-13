@@ -9,8 +9,10 @@ import jakarta.persistence.Id;
 import jakarta.persistence.ManyToOne;
 import lombok.Getter;
 import lombok.Setter;
+import jakarta.persistence.Table;
 
 @Entity
+@Table(name = "tb_produto")
 @Getter
 @Setter
 public class Produto {
