@@ -14,7 +14,7 @@ import lombok.Setter;
 @Getter
 @Setter
 @NoArgsConstructor
-@AllArgsConstructor
+@AllArgsConstructor 
 @EqualsAndHashCode(of = "id")
 @Entity
 @Table(name = "tb_cliente")
